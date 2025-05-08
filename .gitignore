@@ -5,3 +5,9 @@ env
 myenv/
 /myenv
 ./myenv
+
+./pycache
+./__pycache__
+/__pycache__
+../__pycache__
+/__pycache__
