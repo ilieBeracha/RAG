@@ -1,0 +1,40 @@
+Product	SKU	Quantity	Adjusted Quantity	Store Consumer	Total per Row	Comments	Profits Options		
+Bowl -PILAR- Moonbeam 	64166	16	12	₪79.00	₪948.00	רק שישיות	My Purchase Price - 40% Discount	50% Profit	60% Profit
+Deep plate -PILAR- Moonbeam 680 ml 	63694	16	12	₪129.00	₪1548.00	רק שישיות	₪193.50	₪77.40	₪154.80
+Bottle cooler -EASY-68237   	68237	8	4	₪379.00	₪1516.00	זוגות	₪568.50	₪227.40	₪454.80
+Bowl -PILAR- Moonbeam Size M 620 ml	63700	12	6	₪89.00	₪534.00	שישיות	₪133.50	₪53.40	₪106.80
+Bowl -PILAR- Moonbeam Size XL 3000 ml 	63698	8	4	₪390.00	₪1560.00		₪585.00	₪234.00	₪468.00
+Butter dish -BASIC- Size M - קוד שונה הייתה טעות בספרה	63638	12	6	₪390.00	₪2340.00	זוגות	₪585.00	₪234.00	₪468.00
+Butter dish -PILAR- Colour Moonbeam 	64367	8	4	₪199.00	₪796.00		₪298.50	₪119.40	₪238.80
+Creamer -PILAR- Moonbeam 280 ml 	63992	16	8	₪89.00	₪712.00	רביעיות	₪133.50	₪53.40	₪106.80
+Cup -PILAR- Moonbeam 250 ml – 63702   	63702	36	18	₪65.00	₪1170.00	רק שישיות	₪97.50	₪39.00	₪78.00
+Decorative bowl -MOON- Round Size S 	65445	12	6	₪395.00	₪2370.00		₪592.50	₪237.00	₪474.00
+Dessert plate -PILAR- Moonbeam 	63693	16	12	₪85.00	₪1020.00	רק שישיות	₪127.50	₪51.00	₪102.00
+Marble tray -ABENTO- Colour Sharkskin 	66663	12	6	₪890.00	₪5340.00		₪1335.00	₪534.00	₪1068.00
+Milk jug -BASIC	63620	16	8	₪229.00	₪1832.00		₪343.50	₪137.40	₪274.80
+Plate -PILAR- Moonbeam	63988	12	8	₪45.00	₪360.00	רביעיות	₪67.50	₪27.00	₪54.00
+Plate -PILAR- Moonbeam Ø 14 cm 	63980	36	16	₪65.00	₪1040.00	רביעיות	₪97.50	₪39.00	₪78.00
+Salt & pepper mill -SALPI- matt finish 	63956	6	6	₪550.00	₪3300.00		₪825.00	₪330.00	₪660.00
+Salt & pepper mill -SALPI- polished 	63957	0	0	₪490.00	₪0.00	לא זמין	₪735.00	₪294.00	₪588.00
+Serving dish -RO- Nimbus Cloud small 	64148	16	8	₪215.00	₪1720.00	זוגות	₪322.50	₪129.00	₪258.00
+Set of 2 coffee cups -PILAR- Moonbeam 200 ml 	63907	16	8	₪259.00	₪2072.00	כפולות 2	₪388.50	₪155.40	₪310.80
+Set of 2 tea cups -PILAR- Moonbeam 200 m *קוד שונה* 4008832773440	4.00883E+12	16	8	₪259.00	₪2072.00	זוגות	₪388.50	₪155.40	₪310.80
+Snack bowl -BASIC- 250 ml 	63634	16	8	₪199.00	₪1592.00		₪298.50	₪119.40	₪238.80
+Snack bowl -PILAR- Moonbeam 130 ml	63699	16	12	₪55.00	₪660.00	שישיות	₪82.50	₪33.00	₪66.00
+Soap Dispenser -CRETO- Colour Lily White 	65488	12	6	₪269.00	₪1614.00		₪403.50	₪161.40	₪322.80
+Soap Dispenser -MODO- Colour Stainless Steel polished Size 165 ml 	65521	12	6	₪390.00	₪2340.00		₪585.00	₪234.00	₪468.00
+Teapot -PILAR- Moonbeam 1000 ml 	63996	8	0		₪0.00		₪0.00	₪0.00	₪0.00
+Tray -ABENTO- Colour Black Size S 	64438	12	6	₪360.00	₪2160.00		₪540.00	₪216.00	₪432.00
+Tray -BASIC- 15 x 25cm 	63612	16	8	₪249.00	₪1992.00		₪373.50	₪149.40	₪298.80
+Tray -BASIC- 17 x 20cm 	63613	16	8	₪259.00	₪2072.00		₪388.50	₪155.40	₪310.80
+Tray -CRETO- Colour Lily White 	65492	12	6	₪219.00	₪1314.00		₪328.50	₪131.40	₪262.80
+Tray -OKU- Colour Black Size L	64534	12	12	₪519.00	₪6228.00		₪778.50	₪311.40	₪622.80
+Tray -OKU- Colour Black Size M 	64533	16	12	₪290.00	₪3480.00		₪435.00	₪174.00	₪348.00
+Tray -OKU- Colour Black Size M 	64550	12	6	₪519.00	₪3114.00		₪778.50	₪311.40	₪622.80
+Tray -OKU- Colour Black Size S 	64532	16	8	₪219.00	₪1752.00		₪328.50	₪131.40	₪262.80
+Tray -PEASY- colour Stainless Steel size S 	64483	12	6	₪199.00	₪1194.00		₪298.50	₪119.40	₪238.80
+Tray -WILLO- Colour Black Size L 	64440	12	2	₪349.00	₪698.00	חדש	₪523.50	₪209.40	₪418.80
+Tray -WILLO- Colour Black Size S 	64439	12	6	₪249.00	₪1494.00	חדש	₪373.50	₪149.40	₪298.80
+Tumbler -CRETO- Colour Lily White 	65490	12	6	₪149.00	₪894.00		₪223.50	₪89.40	₪178.80
+Tumbler -MODO- Colour Stainless Steel polished 	65523	12	6	₪220.00	₪1320.00		₪330.00	₪132.00	₪264.00
+Water carafe -BELO- Colour Clear 1200ml 	64400	8	8	₪290.00	₪2320.00	זוגות	₪435.00	₪174.00	₪348.00
