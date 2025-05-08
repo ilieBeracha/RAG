@@ -1,55 +1,83 @@
-# RAG (Retrieval-Augmented Generation) QA Chain Setup
 
-This project provides a simple setup for creating a Retrieval-Augmented Generation (RAG) question-answering (QA) chain using [LangChain](https://github.com/langchain-ai/langchain) and [Ollama](https://ollama.com/).
+# RAG (Retrieval-Augmented Generation) QA API
+
+This project implements a Retrieval-Augmented Generation (RAG) question-answering pipeline using FastAPI, LangChain, and Ollama with support for both chat and file-based queries.
+
+## Project Structure
+
+```
+.
+├── chains/
+│   ├── base_qa_query.py        # Base chat chain (no document)
+│   └── file_qa_query.py        # QA chain using document context
+├── routes/
+│   └── qa.py                   # Main QA route with both modes
+├── vector_store/
+│   └── faiss_store.py          # Vector store setup using FAISS
+├── document_processor.py       # Document loader + splitter
+├── main.py                     # FastAPI app entry point
+├── requirements.txt
+```
 
 ## Features
 
-- Uses the `mistral` model via Ollama for LLM responses.
-- Integrates with any LangChain-compatible vector store for document retrieval.
-- Returns both answers and source documents for transparency.
+- Ask questions directly or by uploading a document
+- Automatic document chunking and vector store creation with FAISS
+- Uses `mistral` via Ollama for LLM responses
+- Handles both plain queries and file-based RAG in one endpoint
 
-## Requirements
+## Setup
 
-- Python 3.8+
-- [LangChain](https://python.langchain.com/)
-- [langchain-ollama](https://github.com/langchain-ai/langchain-ollama)
-- An Ollama server running with the `mistral` model available
-
-Install dependencies:
-
+1. Install dependencies:
 ```bash
-pip install langchain langchain-ollama
+pip install -r requirements.txt
 ```
 
-## Usage
-
-1. **Set up your vector store** (see LangChain docs for options).
-2. **Import and use the chain setup:**
-
-```python
-from llm_chain_setup import create_qa_chain
-
-# Assume you have a vectorstore object ready
-qa_chain = create_qa_chain(vectorstore)
-
-# Ask a question
-result = qa_chain({"query": "What is retrieval-augmented generation?"})
-print(result["result"])
-print(result["source_documents"])
+2. Make sure Ollama is running with the `mistral` model:
+```bash
+ollama run mistral
 ```
 
-## File Overview
+3. Start the FastAPI app:
+```bash
+uvicorn main:app --reload
+```
 
-- `llm_chain_setup.py`: Contains the `create_qa_chain` function to build a QA chain with a specified vector store and LLM model.
+## API Endpoints
 
-## Customization
+### `POST /qa`
 
-- Change the model by passing a different `model_name` to `create_qa_chain`.
-- Extend the chain with custom prompts or chain types as needed.
+Handles both plain questions and file-assisted RAG queries.
+
+#### Parameters:
+- `query`: The question you want to ask (required, `Form` field)
+- `file`: A document file (`.txt`, `.csv`, etc.) to use for context (optional, `UploadFile`)
+
+#### Behavior:
+- If a file is uploaded:  
+  → Splits and indexes the content, then answers using retrieval-augmented QA
+- If no file is uploaded:  
+  → Answers the query using a basic language model chain
+
+## Examples
+
+### Query without a file
+```bash
+curl -X POST http://localhost:8000/qa \
+  -F "query=What is the capital of France?"
+```
+
+### Query with a document
+```bash
+curl -X POST http://localhost:8000/qa \
+  -F "query=What is this document about?" \
+  -F "file=@documents/example.txt"
+```
 
 ## License
 
-MIT License
-# RAG
-# RAG
-# RAG
+[Include license information here]
+
+## Contributing
+
+[Include contribution guidelines here]
