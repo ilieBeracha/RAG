@@ -18,7 +18,10 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
 logger = logging.getLogger(__name__)
 
-logging.info("Starting FastAPI app.")
 app = FastAPI()
-logging.info("Including QA router.")
 app.include_router(qa_router)
+
+if __name__ == "__main__":
+    import uvicorn
+    logging.info("Running app with uvicorn on 0.0.0.0:8000")
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=False)
